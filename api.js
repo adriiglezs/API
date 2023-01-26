@@ -23,7 +23,7 @@ const getUsers = (page = 1) => {
               document.getElementById(j).innerHTML = ` ${user.first_name}`;
               document.getElementById(k).innerHTML = ` ${user.last_name}`;
               document.getElementById(l).innerHTML = ` ${user.email}`;
-              document.getElementById(m).innerHTML = `<img src= "${user.avatar}" width="50" height="50"></img>`;
+              document.getElementById(m).innerHTML = `<img src= "${user.avatar}" class="avatar"></img>`;
               i++, j++, k++, l++, m++;
             }           
 

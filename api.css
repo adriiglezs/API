@@ -1,3 +1,12 @@
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% auto;
+    border-radius:50%
+}
+
 button , table{
     --border-radius: 15px;
     --border-width: 4px;
